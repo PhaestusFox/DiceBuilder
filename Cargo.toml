@@ -1,0 +1,11 @@
+[package]
+name = "dice_builder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.13"
+heapless = "*"
+
+[profile.dev.package."*"]
+opt-level = 3
